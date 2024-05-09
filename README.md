@@ -1,4 +1,4 @@
-# yolov8_pose2Integrity_check.
+# command_set
 
 
 check if yolov8 install successfully. 
