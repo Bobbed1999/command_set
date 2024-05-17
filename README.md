@@ -46,3 +46,7 @@ Alternatively, open a terminal and run:
 
 anaconda-navigator # run it under the default base env
 
+
+
+docker build -t welcome-to-docker .
+The -t flag tags your image with a name. (welcome-to-docker in this case). And the . lets Docker know where it can find the Dockerfile.
