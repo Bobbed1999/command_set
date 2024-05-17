@@ -31,3 +31,14 @@ git checkout <branch_name>`: Switch to a different branch.
 git merge <branch_name>`: Merge changes from one branch into the current branch.
 9. git status: View the status of files in the repository.
 10. git log: View commit history.
+
+
+
+systemctl --user start docker-desktop
+
+systemctl --user stop docker-desktop
+
+To enable Docker Desktop to start on sign in, from the Docker menu, select Settings > General > Start Docker Desktop when you sign in to your computer.
+
+Alternatively, open a terminal and run:
+ systemctl --user enable docker-desktop
