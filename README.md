@@ -34,7 +34,7 @@ git merge <branch_name>`: Merge changes from one branch into the current branch.
 
 
 
-systemctl --user start docker-desktop
+systemctl --user start docker-desktop (or just click the icon)
 
 systemctl --user stop docker-desktop
 
@@ -42,3 +42,7 @@ To enable Docker Desktop to start on sign in, from the Docker menu, select Setti
 
 Alternatively, open a terminal and run:
  systemctl --user enable docker-desktop
+
+
+anaconda-navigator # run it under the default base env
+
