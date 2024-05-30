@@ -50,3 +50,63 @@ anaconda-navigator # run it under the default base env
 
 docker build -t welcome-to-docker .
 The -t flag tags your image with a name. (welcome-to-docker in this case). And the . lets Docker know where it can find the Dockerfile.
+
+
+=============================
+
+是的，分支的名字可以自定义，你可以根据你的需求来命名新分支。分支名称应具有描述性，以便其他开发人员可以理解该分支的用途或包含的更改。
+
+### 创建自定义名称的新分支
+
+以下是使用自定义分支名称的命令示例：
+
+```bash
+git checkout -b <your-custom-branch-name>
+```
+
+### 示例
+
+假设你正在开发一个新功能，可以将分支命名为 `feature/new-functionality`：
+
+```bash
+git checkout -b feature/new-functionality
+```
+
+或者，如果你正在修复一个bug，可以将分支命名为 `bugfix/issue-123`：
+
+```bash
+git checkout -b bugfix/issue-123
+```
+
+### 总结
+
+你可以使用描述性的、自定义的分支名称来创建新的分支。例如：
+
+```bash
+git checkout -b my-awesome-feature
+```
+
+### 完整流程示例
+
+1. 创建并切换到一个新分支：
+
+   ```bash
+   git checkout -b my-awesome-feature
+   ```
+
+2. 提交你的更改：
+
+   ```bash
+   git add .
+   git commit -m "描述你的更改"
+   ```
+
+3. 推送你的分支到公司的仓库：
+
+   ```bash
+   git push origin my-awesome-feature
+   ```
+
+4. 在GitHub上创建一个Pull Request。 my-awesome-feature is the customer name for prevalidator the name is feature/prevalidator
+
+这样，你可以安全地在自定义名称的分支上工作并推送你的更改。
