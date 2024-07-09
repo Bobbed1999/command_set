@@ -162,3 +162,5 @@ git checkout -b my-awesome-feature
    ```
 
 通过上述步骤，你可以将main分支的更改合并到你的分支，并确保你的更改不会被删除。
+
+用 'git branch <分支名>' 来创建分支，用 'git checkout <分支名>' 来切换到分支
