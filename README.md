@@ -168,3 +168,10 @@ git checkout -b my-awesome-feature
 useful link:
 https://learngitbranching.js.org/?locale=zh_CN
 
+$ git fakeTeamwork
+
+$ git commit
+
+$ git pull --rebase
+
+$ git push
