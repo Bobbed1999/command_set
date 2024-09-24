@@ -12,6 +12,8 @@ pip install notebook
 
 jupyter notebook
 
+conda create -n name python=3.8  
+
 
 Here are some essential commands to kick-start your GitHub journey!
 1. git clone: Clone a repository to your local machine.
